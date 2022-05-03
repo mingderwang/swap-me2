@@ -1,10 +1,10 @@
 {
   "root": true,
   "project": {
-    "name": "swapme_ms"
+    "name": "fuchsia-jaguar"
   },
   "api": {
-    "projectId": "lwsr94z7",
+    "projectId": "lc2t3ug2",
     "dataset": "production"
   },
   "plugins": [
@@ -24,6 +24,10 @@
     {
       "name": "part:@sanity/base/schema",
       "path": "./schemas/schema"
+    },
+    {
+      "implements": "part:@sanity/base/root",
+      "path": "plugins/sanity-plugin-tutorial/CustomDefaultLayout"
     }
   ]
 }
